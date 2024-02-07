@@ -1,1 +1,1 @@
-# s.owl_mbti
+# sowlmbti
