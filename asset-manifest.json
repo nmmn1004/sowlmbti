@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sowlmbti/static/css/main.1185819c.css",
+    "main.js": "/sowlmbti/static/js/main.20396380.js",
+    "static/js/592.aec38442.chunk.js": "/sowlmbti/static/js/592.aec38442.chunk.js",
+    "static/media/select1.png": "/sowlmbti/static/media/select1.49b65b7c5ea36347eecd.png",
+    "static/media/select0.png": "/sowlmbti/static/media/select0.9db8735c4e3d0b8fafc6.png",
+    "static/media/sowlLogo.svg": "/sowlmbti/static/media/sowlLogo.501e30887a461ca3ce22707c55fc2780.svg",
+    "index.html": "/sowlmbti/index.html",
+    "main.1185819c.css.map": "/sowlmbti/static/css/main.1185819c.css.map",
+    "main.20396380.js.map": "/sowlmbti/static/js/main.20396380.js.map",
+    "592.aec38442.chunk.js.map": "/sowlmbti/static/js/592.aec38442.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1185819c.css",
+    "static/js/main.20396380.js"
+  ]
+}
