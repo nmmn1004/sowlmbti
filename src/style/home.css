@@ -1,0 +1,37 @@
+.homeContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 4em;
+}
+
+.homeRandomImage {
+    width: 15em;
+    height: 15em;
+
+    background: white;
+}
+
+.homeTitle {
+    font-size: 2.5em;
+    font-weight: 900;
+
+    color: #BFB9FC;
+    -webkit-text-stroke: 0.02em #6A6A6A;
+}
+
+.homeLink {
+    font-size: 1.7em;
+
+    color: black;
+
+    background-color: #ffff59;
+    text-align: center;
+
+    width: 11em;
+    border-radius: 1em;
+    
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
+}

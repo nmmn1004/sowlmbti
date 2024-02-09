@@ -1,0 +1,43 @@
+
+.mainContainer {
+    background-color: rgba(255, 255, 255, 0.7);
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    width: 20em;
+    height: 40em;
+
+    padding: 1em 2em;
+
+    border-radius: 1.5em;
+}
+
+.mainHeader {
+    font-size: 4.2em;
+    font-weight: bold;
+    
+    color: #BFB9FC;
+    -webkit-text-stroke: 0.02em #6A6A6A;
+
+    margin-bottom: 0.2em;
+}
+.mainLogo {
+    width: 2em;
+}
+.mainFooter {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: auto;
+    
+    font-size: 1.2em;
+    color: #6A6A6A;
+}
