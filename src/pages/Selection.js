@@ -7,22 +7,37 @@ export default function Selection() {
     const navigate = useNavigate();
     const [phase, setPhase] = useState(0);
     const [selectionList, setSelectList] = useState(selectionData);
+    const [mbtiArr, setMbtiArr] = useState([0, 0, 0, 0])
 
     function clickOption(answer) {
-        if(phase >= selectionList.length - 1)
-        navigate('/result', { state: { selectionList } });
-        else{
+        // console.log(mbtiArr, phase);
+
+        if(phase >= selectionList.length - 1){
+            mbtiArr[phase % 4] += answer? 1: -1;
+            let mbti = "";
+            mbti += (mbtiArr[0] > 0)? "e": "i";
+            mbti += (mbtiArr[1] > 0)? "n": "s";
+            mbti += (mbtiArr[2] > 0)? "f": "t";
+            mbti += (mbtiArr[3] > 0)? "p": "j";
+
+            navigate('/result/' + mbti, { state: { selectionList } });
+        }
+        
+        else {
             selectionList[phase] = { ...selectionList[phase], isPos: answer };
+            
+            mbtiArr[phase % 4] += answer? 1: -1;
+
             setPhase(phase => phase + 1);
         }
     }
-    // console.log(selectList[0]);
+    // `consol`e.log(selectList[0]);
     // selectList[0] = {...selectList[0], isPos: true};
     // 이렇게는 왜 안됨?????
     // setSelectList((prev[0]) => {...prev[0], isPos: true});
     // console.log(selectList[0]);
-    console.log(selectionList);
-    console.log(phase)
+    // console.log(selectionList);
+    // console.log(phase)
     return (
         <div className="selectionContainer">
             <header className="selectionText">

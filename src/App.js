@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='mainContainer'>
       <header>
-        <img src={LogoTitle} alt='logoTitle' className='mainHeader' oncontextmenu="return false"></img>
+        <img src={LogoTitle} alt='logoTitle' className='mainHeader'></img>
       </header>
       <Routes>
         <Route path='/' element={<Home />} />

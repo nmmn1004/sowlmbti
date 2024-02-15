@@ -1,15 +1,15 @@
-import select0 from '../img/select0.png';
-import select1 from '../img/select1.png';
-import select2 from '../img/select2.png';
-import select3 from '../img/select3.png';
-import select4 from '../img/select4.png';
-import select5 from '../img/select5.png';
-import select6 from '../img/select6.png';
-import select7 from '../img/select7.png';
-import select8 from '../img/select8.png';
-import select9 from '../img/select9.png';
-import select10 from '../img/select10.png';
-import select11 from '../img/select11.png';
+import select0 from '../img/selectionImg/select0.png';
+import select1 from '../img/selectionImg/select1.png';
+import select2 from '../img/selectionImg/select2.png';
+import select3 from '../img/selectionImg/select3.png';
+import select4 from '../img/selectionImg/select4.png';
+import select5 from '../img/selectionImg/select5.png';
+import select6 from '../img/selectionImg/select6.png';
+import select7 from '../img/selectionImg/select7.png';
+import select8 from '../img/selectionImg/select8.png';
+import select9 from '../img/selectionImg/select9.png';
+import select10 from '../img/selectionImg/select10.png';
+import select11 from '../img/selectionImg/select11.png';
 
 const selectionList = [
     {
