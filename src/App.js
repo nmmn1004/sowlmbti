@@ -5,12 +5,13 @@ import Home from './pages/Home';
 import Select from './pages/Selection';
 import Result from './pages/Result'
 import LogoImage from './img/sowlLogo.svg';
+import LogoTitle from './img/sowlMbti.svg';
 
 function App() {
   return (
     <div className='mainContainer'>
-      <header className='mainHeader'>
-        S.owl MBTI
+      <header>
+        <img src={LogoTitle} alt='logoTitle' className='mainHeader' oncontextmenu="return false"></img>
       </header>
       <Routes>
         <Route path='/' element={<Home />} />

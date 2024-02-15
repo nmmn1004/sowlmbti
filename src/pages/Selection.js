@@ -9,7 +9,7 @@ export default function Selection() {
     const [selectionList, setSelectList] = useState(selectionData);
 
     function clickOption(answer) {
-        if(phase >= 1)
+        if(phase >= selectionList.length - 1)
         navigate('/result', { state: { selectionList } });
         else{
             selectionList[phase] = { ...selectionList[phase], isPos: answer };

@@ -8,6 +8,11 @@
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 
     width: 20em;
     height: 40em;
@@ -18,9 +23,16 @@
 }
 
 .mainHeader {
-    font-size: 4.2em;
+    /* font-size: 4.2em; */
     font-weight: bold;
+    width: 20em;
     
+    -webkit-touch-callout: none;
+     user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -webkit-user-select: none;
+
     color: #BFB9FC;
     -webkit-text-stroke: 0.02em #6A6A6A;
 
