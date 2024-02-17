@@ -19,7 +19,13 @@
     font-size: 2em;
     color: white;
 
-    background: rgba(148, 148, 148, 0.644);
+    /* background: rgba(148, 148, 148, 0.644); */
+}
+
+.homeImage {
+    width: 8em;
+    height: 8em;
+
 }
 
 .homeTitle {
