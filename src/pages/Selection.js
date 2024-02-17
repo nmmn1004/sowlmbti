@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import '../style/selection.css';
 import selectionData from '../component/seletionData';
 import { useNavigate } from 'react-router-dom';
+import LogoTitle from '../img/sowlMbti.svg';
 
 export default function Selection() {
     const navigate = useNavigate();
@@ -40,11 +41,14 @@ export default function Selection() {
     // console.log(phase)
     return (
         <div className="selectionContainer">
-            <header className="selectionText">
-                {selectionList[phase].text}
+            <header>
+                <img src={LogoTitle} alt='logoTitle' className='mainHeader'></img>
             </header>
+            <div className="selectionText">
+                {selectionList[phase].text}
+            </div>
             <main className="selectionMain">
-                <img className="selectionImg" src={selectionList[phase].imageURL} alt=""/>
+                <img className="selectionImg" src={require(`../img/selectionImg/selection${phase}.png`)} alt=""/>
                 <button className="optionButton" onClick={() => clickOption(true)}>{selectionList[phase].optText1}</button>
                 <button className="optionButton" onClick={() => clickOption(false)}>{selectionList[phase].optText2}</button>
             </main>

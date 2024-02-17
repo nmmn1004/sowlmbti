@@ -15,7 +15,7 @@
     -webkit-user-select: none;
 
     width: 20em;
-    height: 40em;
+    /* height: 40em; */
 
     padding: 1em 2em;
 
@@ -36,7 +36,7 @@
     color: #BFB9FC;
     -webkit-text-stroke: 0.02em #6A6A6A;
 
-    margin-bottom: 0.2em;
+    /* margin-bottom: 0.2em; */
 }
 .mainLogo {
     width: 2em;
