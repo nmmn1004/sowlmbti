@@ -11,8 +11,6 @@ export default function Selection() {
     const [mbtiArr, setMbtiArr] = useState([0, 0, 0, 0])
 
     function clickOption(answer) {
-        // console.log(mbtiArr, phase);
-
         if(phase >= selectionList.length - 1){
             mbtiArr[phase % 4] += answer? 1: -1;
             let mbti = "";
@@ -32,13 +30,6 @@ export default function Selection() {
             setPhase(phase => phase + 1);
         }
     }
-    // `consol`e.log(selectList[0]);
-    // selectList[0] = {...selectList[0], isPos: true};
-    // 이렇게는 왜 안됨?????
-    // setSelectList((prev[0]) => {...prev[0], isPos: true});
-    // console.log(selectList[0]);
-    // console.log(selectionList);
-    // console.log(phase)
     return (
         <div className="selectionContainer">
             <header>
